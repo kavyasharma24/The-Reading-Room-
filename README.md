@@ -29,7 +29,7 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 
 ## 🔗 Live Preview
 
-👉 https://ubiquitous-lebkuchen-1daf3b.netlify.app/
+👉 https://thereadingroom-ai.netlify.app/
 
 ## 🧑‍💻 Made By 
 
