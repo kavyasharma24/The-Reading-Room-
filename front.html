@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Reading Room</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+                  url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #3e2c1c;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      background-color: #fffaf0;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+      max-width: 600px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #6a4f35;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #543d28;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #5e4d3c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📖 Welcome to The Reading Room</h1>
+  <div class="container">
+    <p>🤖 Let our smart book bot (booksy) guide you,<br> to your next favorite read!💫 <br>
+        Find your next favorite book through a quick chat!<br>
+From trending titles to hidden gems 💎 — explore genres and authors you’ll love! 📚</p>
+    <button class="btn" onclick="startChat()">Start Conversation!</button>
+  </div>
+
+  <footer>
+  Powered by stories, guided by AI — discover the magic of reading.<br>
+    Made by Kavya @2025.
+  </footer>
+
+  <!-- Watson Assistant Script -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "cb085bf0-5d51-4a50-aa65-7e6588886a62",
+      region: "jp-tok",
+      serviceInstanceID: "874025e0-397d-49db-abae-021763128c82",
+      onLoad: async (instance) => {
+        window.chatInstance = instance;
+        await instance.render();
+      }
+    };
+    setTimeout(function(){
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
+              (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+
+    function startChat() {
+      if (window.chatInstance) {
+        window.chatInstance.openWindow();
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+   
+
+
+
