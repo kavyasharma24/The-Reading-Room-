@@ -33,7 +33,7 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 
 ## 🧑‍💻 Made By 
 
-**Kavya** | `@@kavyasharma24`
+**Kavya** | `@kavyasharma24`
 
 ---
 
