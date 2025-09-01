@@ -23,7 +23,7 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 ## 🚀 How to Use
 
 1. Clone the repository or download the files.
-2. Open `front.html` in your browser.
+2. Open `index.html` in your browser.
 3. Click **“Start Conversation!”** to chat with the AI bot.
 4. Explore books, genres, and authors interactively.
 
