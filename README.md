@@ -2,7 +2,7 @@
 
 Welcome to **The Reading Room** — a calming and smart space where book lovers can get instant book recommendations powered by AI.
 
-## 🌟 Features
+## Features
 
 - Chatbot integration using **IBM Watson Assistant**
 - Beautiful user-friendly UI
@@ -10,7 +10,7 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 - Subtle background and soothing theme
 - One-click conversation starter button
 
-## 🖼️ Screenshot
+## Screenshot
 
 ![Chatbot UI](https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1950&q=80)
 
@@ -20,7 +20,7 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 - CSS3
 - IBM Watson Assistant
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone the repository or download the files.
 2. Open `index.html` in your browser.
@@ -36,6 +36,5 @@ Welcome to **The Reading Room** — a calming and smart space where book lovers 
 **Kavya** | `@kavyasharma24`
 
 ---
-
-📚 *Powered by stories, guided by AI — discover the magic of reading.*
+*Powered by stories, guided by AI — discover the magic of reading.*
 
